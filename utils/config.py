@@ -1,3 +1,5 @@
+import os
+
 class Config(object):
     def __init__(self, filename=None):
         assert os.path.exists(filename), "ERROR: Config File doesn't exist."
